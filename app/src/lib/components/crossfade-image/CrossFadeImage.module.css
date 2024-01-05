@@ -1,0 +1,20 @@
+.crossfade {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-cross-fade(
+    url(attr(data-image-1-url)),
+    url(attr(data-image-2-url)),
+    75%
+  );
+  background-image: cross-fade(
+    url(attr(data-image-1-url)),
+    url(attr(data-image-2-url)),
+    75%
+  );
+
+  /* background-image: -webkit-cross-fade(
+    url("/src/assets/images/MEZ105_Skin_CS_Wrinkle_0016_0000.jpg"),
+    url("/src/assets/images/MEZ105_Skin_CS_Wrinkle_0016_0000.jpg"),
+    75%
+  ); */
+}
