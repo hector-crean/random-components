@@ -1,0 +1,29 @@
+{
+    "nodes": [
+        {
+            "type": "RichText",
+            "props": {
+                "id": "7a39b5e5-1ae1-40f4-b3cd-5055223d9b92",
+                "blocks": [
+                    {
+                        "type": "paragraph",
+                        "attrs": {
+                            "alignment": "center"
+                        },
+                        "content": [
+                            {
+                                "type": "text",
+                                "attrs": null,
+                                "content": null,
+                                "marks": null,
+                                "text": "More changes here"
+                            }
+                        ],
+                        "marks": null,
+                        "text": null
+                    }
+                ]
+            }
+        }
+    ]
+}

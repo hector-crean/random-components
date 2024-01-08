@@ -12,6 +12,11 @@
   "dependencies": {
     "@mantine/core": "^7.4.0",
     "@mantine/hooks": "^7.4.0",
+    "@tiptap/extension-color": "^2.1.14",
+    "@tiptap/extension-text-style": "^2.1.14",
+    "@tiptap/pm": "^2.1.13",
+    "@tiptap/react": "^2.1.13",
+    "@tiptap/starter-kit": "^2.1.13",
     "@visx/gradient": "^3.3.0",
     "@visx/group": "^3.3.0",
     "@visx/pattern": "^3.3.0",

@@ -1,0 +1,25 @@
+[package]
+name = "ranodes"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = {version="0.7.3", features=["macros", "tokio"]}
+color-eyre = "0.6.2"
+dotenv = "0.15.0"
+glob = "0.3.1"
+lazy_static = "1.4.0"
+regex = "1.10.2"
+serde = { version = "1.0.195", features = ["derive"] }
+serde_json = "1.0.111"
+thiserror = "1.0.56"
+tokio = { version = "1.35.1", features = ["full"] }
+uuid = { version = "1.6.1", features = ["serde", "v4"] }
+walkdir = "2.4.0"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+tracing = "0.1.40"
+tower-http = { version = "0.5.0", features = ["cors", "trace"] } # added
+futures-util = { version = "0.3.30", default-features = false, features = ["sink", "std"] }
+clap = { version = "4.4.13", features = ["derive"] }
